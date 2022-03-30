@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">LearnAnything</string>
+    <string name="list">List</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="submit">Submit</string>
+    <string name="stuff">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+        totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt,
+        explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos,
+        qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur,
+        adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.
+        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+        nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse,
+        quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
+        At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti,
+        quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa,
+        qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+        Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus,
+        omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet,
+        ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat, Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus,
+        ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</string>
+
+    <string name="previous">Previous</string>
+    <string name="finish">Finish</string>
+    <string name="finish_button">Finish</string>
+    <string name="next">Next</string>
+    <string name="onboarding_finished">Onboarding finished!</string>
+    <string name="android_title">Android - The best platform ever! </string>
+    <string name="android_description">This is only one of the awesome tutorials in the even more awesome series of Android tutorials. Learn about animations, frameworks, networking, and everything which Android does better than other platforms.</string>
+    <string name="ios_title">iOS - We had to include this as well…</string>
+    <string name="ios_description">One can argue that iOS is better than Android, but one would be wrong. Either way, we have iOS tutorials as well, but why would you read them over the Android ones? :]</string>
+    <string name="unity_title">Unity - Games galore</string>
+    <string name="unity_description">Unity really is fun. If you\'re looking to create some games, when you\'re not playing them, we have everything you need!</string>
+    <string name="kotlin_title">Kotlin - The beautiful thing</string>
+    <string name="kotlin_description">We all know Kotlin is just the best. Some might say that it\'s what programming languages should be. And they would be 100% korrect.</string>
+    <string name="swift_title">Swift - The not so good Kotlin</string>
+    <string name="swift_description">Swift is cool too. But not as cool as Kotlin, right? It\'s pretty similar to our beautiful, one of a kind, language, so you can learn it here as well.</string>
+
+    <!-- Tab -->
+    <string name="demo_tab_1">Cupcake</string>
+    <string name="demo_tab_2">Donut</string>
+    <string name="demo_tab_3">Eclair</string>
+    <string name="demo_tab_4">Froyo</string>
+    <string name="demo_tab_5">Gingerbread</string>
+    <string name="demo_tab_6">Honeycomb</string>
+    <string name="demo_tab_7">Ice Cream Sandwich</string>
+    <string name="demo_tab_8">Jelly Bean</string>
+    <string name="demo_tab_9">KitKat</string>
+    <string name="demo_tab_10">Lollipop</string>
+</resources>
