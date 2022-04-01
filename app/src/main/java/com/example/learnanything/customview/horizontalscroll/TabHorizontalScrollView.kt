@@ -34,13 +34,6 @@ class TabHorizontalScrollView @JvmOverloads constructor(
     private var tabStrips = SlidingTabStrip(context)
     private lateinit var viewPager: ViewPager
     private var tabTextSize = DEFAULT_TEXT_SIZE.dpToPx(context)
-    private var lastX = 0F
-    private val isRtl =
-        TextUtilsCompat.getLayoutDirectionFromLocale(Locale.getDefault()) == ViewCompat.LAYOUT_DIRECTION_RTL
-
-    init {
-
-    }
 
     override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
         super.onSizeChanged(w, h, oldw, oldh)
