@@ -8,6 +8,7 @@
         android:id="@+id/tabHorizontal"
         android:layout_width="match_parent"
         android:layout_height="48dp"
+        android:layoutDirection="rtl"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.viewpager.widget.ViewPager

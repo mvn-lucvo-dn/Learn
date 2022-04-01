@@ -3,10 +3,8 @@ package com.example.learnanything.customview.horizontalscroll
 import android.annotation.SuppressLint
 import android.content.Context
 import android.util.AttributeSet
-import android.util.Log.d
 import android.util.TypedValue
 import android.view.Gravity
-import android.view.MotionEvent
 import android.widget.HorizontalScrollView
 import android.widget.LinearLayout
 import android.widget.TextView
@@ -41,9 +39,7 @@ class TabHorizontalScrollView @JvmOverloads constructor(
         TextUtilsCompat.getLayoutDirectionFromLocale(Locale.getDefault()) == ViewCompat.LAYOUT_DIRECTION_RTL
 
     init {
-        setOnTouchListener { _, event ->
-            handleOnTouchEvent(event)
-        }
+
     }
 
     override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
@@ -67,9 +63,9 @@ class TabHorizontalScrollView @JvmOverloads constructor(
                     LinearLayout.LayoutParams.MATCH_PARENT, totalHeight
                 ).apply {
                     setMargins(
+                        if (isRTL()) 0 else (w - (currentTab.measuredWidth + nextTab.measuredWidth)) / 2,
                         0,
-                        0,
-                        (w - (currentTab.measuredWidth + nextTab.measuredWidth)) / 2,
+                        if (isRTL()) (w - (currentTab.measuredWidth + nextTab.measuredWidth)) / 2 else 0,
                         0
                     )
                 }
@@ -136,34 +132,5 @@ class TabHorizontalScrollView @JvmOverloads constructor(
         }
     }
 
-    private fun handleOnTouchEvent(event: MotionEvent): Boolean {
-        when (event.action) {
-            MotionEvent.ACTION_DOWN -> {
-                d("aaa", "down")
-                lastX = event.rawX
-                viewPager.beginFakeDrag()
-            }
-
-            MotionEvent.ACTION_MOVE -> {
-                val value = event.rawX
-                val delta = value - lastX
-                d("aaa", "${mirrorInRtl(delta)}")
-                viewPager.fakeDragBy(delta/width)
-//                lastX = value
-            }
-
-            MotionEvent.ACTION_CANCEL, MotionEvent.ACTION_UP -> {
-                viewPager.endFakeDrag()
-            }
-        }
-        return true
-    }
-
-    private fun mirrorInRtl(f: Float): Float {
-        return if (isRtl) -f else f
-    }
-
-    private fun getValue(event: MotionEvent): Float {
-        return mirrorInRtl(event.x)
-    }
+    private fun isRTL() = ViewCompat.getLayoutDirection(this) == ViewCompat.LAYOUT_DIRECTION_LTR
 }
